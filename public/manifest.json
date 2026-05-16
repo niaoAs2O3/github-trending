@@ -1,7 +1,8 @@
 {
   "name": "GitHub 热榜",
   "short_name": "热榜",
-  "start_url": "/",
+  "start_url": "https://raw.githubusercontent.com/niaoAs2O3/github-trending/gh-pages/index.html",
+"scope": "https://raw.githubusercontent.com/niaoAs2O3/github-trending/gh-pages/",
   "display": "standalone",
   "background_color": "#0d1117",
   "theme_color": "#0d1117",
