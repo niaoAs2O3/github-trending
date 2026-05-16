@@ -33,7 +33,7 @@ function renderCard(repo) {
 async function loadData() {
   app.innerHTML = '<div class="loading">加载中...</div>';
   try {
-    const res = await fetch('/api/trending');
+    const res = await fetch('trending.json');
     const json = await res.json();
     if (json.data && json.data.length > 0) {
       app.innerHTML = json.data.map(renderCard).join('');

@@ -1,0 +1,115 @@
+{
+  "data": [
+    {
+      "rank": 1,
+      "owner": "tinyhumansai",
+      "name": "openhuman",
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "starsTotal": 9375,
+      "starsSince": 1271,
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "rank": 2,
+      "owner": "obra",
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "starsTotal": 193112,
+      "starsSince": 1648,
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "rank": 3,
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "starsTotal": 22618,
+      "starsSince": 646,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "rank": 4,
+      "owner": "supertone-inc",
+      "name": "supertonic",
+      "fullName": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "starsTotal": 6196,
+      "starsSince": 719,
+      "url": "https://github.com/supertone-inc/supertonic"
+    },
+    {
+      "rank": 5,
+      "owner": "ruvnet",
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "starsTotal": 57663,
+      "starsSince": 1859,
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "rank": 6,
+      "owner": "influxdata",
+      "name": "telegraf",
+      "fullName": "influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "starsTotal": 17460,
+      "starsSince": 212,
+      "url": "https://github.com/influxdata/telegraf"
+    },
+    {
+      "rank": 7,
+      "owner": "anthropics",
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "starsTotal": 135374,
+      "starsSince": 689,
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "rank": 8,
+      "owner": "czlonkowski",
+      "name": "n8n-mcp",
+      "fullName": "czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "language": "TypeScript",
+      "starsTotal": 20953,
+      "starsSince": 68,
+      "url": "https://github.com/czlonkowski/n8n-mcp"
+    },
+    {
+      "rank": 9,
+      "owner": "NVIDIA-AI-Blueprints",
+      "name": "video-search-and-summarization",
+      "fullName": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "language": "Python",
+      "starsTotal": 1236,
+      "starsSince": 308,
+      "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization"
+    },
+    {
+      "rank": 10,
+      "owner": "oven-sh",
+      "name": "bun",
+      "fullName": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "starsTotal": 90676,
+      "starsSince": 448,
+      "url": "https://github.com/oven-sh/bun"
+    }
+  ],
+  "updatedAt": "2026-05-16T06:37:10.105Z"
+}
