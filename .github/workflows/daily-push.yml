@@ -1,21 +1,25 @@
-name: Daily GitHub Trending Push
+name: Push GitHub Trending to WeChat
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # UTC 0:00 = 北京时间 8:00
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  push:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Run push script
+      - name: Install dependencies
+        run: npm install axios cheerio google-translate-api-x
+
+      - name: Run Script
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: node push.js
