@@ -1,0 +1,21 @@
+name: Daily GitHub Trending Push
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # UTC 0:00 = 北京时间 8:00
+  workflow_dispatch:
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run push script
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: node push.js
